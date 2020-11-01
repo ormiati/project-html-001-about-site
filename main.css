@@ -1,16 +1,59 @@
 header {background-color:black}
 h1 {color: white}
-#home {background-color:rgb(165, 199, 71); font-size: 16px; font-stretch: semi-condensed;}
+#home {background-color:rgb(165, 199, 71);
+     font-size: 16px;
+      font-stretch: semi-condensed;}
 body {background-color: rgb(71, 201, 54);}
-#box1 { background-color: chocolate; width: calc(100%/3); text-align: center; padding: 10px;border:5px black;} 
-#box2 { background-color: chocolate; width: calc(100%/3); text-align: center; padding: 10px;}
-#box3 { background-color: chocolate; width: calc(100%/3); text-align: center; padding: 10px;}
+
+*{box-sizing: border-box}
+#box1 {float:left; 
+    width:33.33%; 
+    padding:10px; 
+    text-align: center;} 
+.row::after {content:"";
+     display:table;
+      clear:both}
+.box2 {background-color: chocolate;}
+.box {background-color: red;}
+
+
+.work {float: left;
+     width:50%; 
+     padding: 10px; 
+     height:444px}
+.workrow::after {content:"";
+    display:table; 
+    clear:both }
+
+@media screen and (max-width:480px) {.work {min-width: 320px;
+     width:100%;
+      height: auto;};
+       img {max-width: 100%;
+        height: auto;}}
+
+
+.imgclm {float: left;
+     width: 33%;
+     padding: 10px; 
+     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.imgrow::after {content:""; 
+    clear: both; 
+    display: table }
+@media screen and (max-width:480px) {.imgclm {min-width:320px;
+    width:100%;
+    height: auto;};
+     img {max-width: 100%;
+      height: auto;}}
+
+.picme {position: relative;
+left:0px}
 
 
 
 
-#picme {float: left}
-.info {float: right}
+
+
+
 
 
 
