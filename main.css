@@ -46,8 +46,9 @@ body {background-color: rgb(71, 201, 54);}
       height: auto;}}
 
 .picme {position: relative;
-left:0px}
-
+left:0px;
+top: 10px}
+footer {margin: 20px}
 
 
 
