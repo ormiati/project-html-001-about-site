@@ -2,12 +2,15 @@ header {background-color:black}
 h1 {color: white}
 #home {background-color:rgb(165, 199, 71); font-size: 16px; font-stretch: semi-condensed;}
 body {background-color: rgb(71, 201, 54);}
+#box1 { background-color: chocolate; width: calc(100%/3); text-align: center; padding: 10px;border:5px black;} 
+#box2 { background-color: chocolate; width: calc(100%/3); text-align: center; padding: 10px;}
+#box3 { background-color: chocolate; width: calc(100%/3); text-align: center; padding: 10px;}
 
 
 
 
+#picme {float: left}
+.info {float: right}
 
 
-
-#picme {float: left; size:560px}
 
